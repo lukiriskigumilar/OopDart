@@ -6,7 +6,7 @@ class Computer{
     
     void shutdown() => print("computer is shutting down");
 
-    void PowerOff() => print("power  is not availabel");
+    void powerOff() => print("power  is not availabel");
 
     String getOS() => "LINUX";
     
@@ -32,7 +32,7 @@ class Computer{
           computer.getOS();
         }
     }else{
-      computer.PowerOff();
+      computer.powerOff();
     }
 
     

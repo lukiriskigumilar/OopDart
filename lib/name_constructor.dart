@@ -1,9 +1,9 @@
-import 'package:dart_oop/class.dart';
+
 
 class Computer {
   String merk = "default";
   String type = "default";
-  String? Os ;
+  String? os ;
 
  Computer(this.merk, this.type);
 
